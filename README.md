@@ -77,3 +77,14 @@ else
 echo "Midagi läks valesti"
 fi
 }
+#!/bin/bash
+set a b operation;
+
+echo "1=";
+read a;
+echo "2="
+read b;
+echo -e "Select operation type: + - * /";
+read operation;
+
+echo "Result:" $(($a$operation$b));
